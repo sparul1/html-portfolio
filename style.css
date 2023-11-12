@@ -5,7 +5,7 @@ h1{
 }
 body{
     background-color: floralwhite;
-    color: ;
+    margin: 20px;
 }
 
 h3{
@@ -17,11 +17,50 @@ h3{
 }
   
 .antiquecolor{
-    padding :5px;
+    padding :10px;
     background-color: antiquewhite;
 }
 #last-div {
     width: 100%; /* Adjust the width of the line */
     border-bottom: 1px solid black; /* Adjust the thickness and color of the line */
   }
+  .rightside{
+    text-align: right;
+  }
+  .companyHeading{
+    margin: 0; 
+    margin-top : 10px;
+
+  }
+  .companyposition{
+    font-weight: 500;
+    font-size: medium;
+    font-style: italic;
+    align-self: flex-end;
+    margin-top: 0px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    
+  }
+  .position{
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 1.10rem;
+    font-style: italic;
+  }
+  
+#Internrow{
+    margin-top: 5%;
+}
+
+ 
